@@ -1,0 +1,156 @@
+/* import fonts */
+@import url('../css/font.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    font-family: 'Kalameh', 'Peyda';
+    /* font-weight: 200; */
+    background-color: #f5f5f5;
+    direction: rtl;
+}
+
+/* singIn */
+.singIn {
+    width: 140px;
+    height: 60px;
+    text-align: center;
+    background: #0878AF;
+}
+
+.active-numb {
+    color: #000;
+    background-color: #056a9c;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    width: 40px;
+    height: 30px;
+}
+
+/* .link:hover {
+    background-color: #056a9c;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    width: 40px;
+    height: 30px;
+    transition: all 0.3s ease;
+} */
+
+
+.swiper {
+    /* height: 200px; */
+    width: 100%;
+    padding: 50px;
+}
+
+
+.swiper-button-next {
+    position: absolute;
+    top: 0;
+    color: #000;
+    margin-left: 3%;
+    background-color: #FCFEFF;
+    width: 30px;
+    height: 30px;
+}
+
+.swiper-button-prev {
+    position: absolute;
+    top: 0;
+    color: #000;
+    margin-right: 89%;
+    background-color: #FCFEFF;
+    width: 30px;
+    height: 30px;
+
+}
+
+
+.swiper-button-next::after {
+    font-size: 18px;
+}
+
+
+
+
+.swiper-button-prev::after {
+    font-size: 18px;
+}
+
+
+/* footer */
+
+footer h5 {
+    border-bottom: 1px solid #0878AF;
+    width: 130px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #3e3d3d;
+    font-size: 1rem;
+    line-height: 2.3;
+}
+
+.button {
+    background-color: #056a9c;
+}
+
+
+
+/* media */
+
+@media(max-width:576px) {
+    .search {
+        display: none;
+    }
+
+    .user {
+        display: block;
+    }
+
+    .images {
+        width: 40px;
+        height: 40px;
+    }
+
+    .text {
+        font-size: 16px !important;
+    }
+
+    .span-news {
+        display: none !important;
+    }
+
+    .span-news2 {
+        display: flex;
+
+    }
+
+    .span-news3 {
+        display: flex;
+    }
+
+    .news-min {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .page-item {
+        text-align: center;
+    }
+
+    .page-svg {
+        display: flex;
+        justify-content: center;
+    }
+
+}
